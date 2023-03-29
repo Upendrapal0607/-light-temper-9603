@@ -1,0 +1,864 @@
+{
+    "All_Product": [
+    
+      {
+        "id":1,
+        "name":"Reformation Juliette Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+       "rating":5,
+       "price":"$ 150.00"
+    },
+    {
+        "id":2,
+        "name":"Reformation Juliette Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+       "rating":5,
+       "price":"$ 350.00"
+    },
+
+  
+    {
+        "id":3,
+        "name":"Reformation Autumn Linen Jumpsuit",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400014_023_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+       "rating":4,
+       "price":"$ 265.00"
+    }
+, {
+    "id":4,
+    "name":"Reformation Abigail Linen Top",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400016_010_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 123.00"
+},
+
+ {
+    "id":5,
+    "name":"Reformation Orion Top",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400018_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 165.00"
+},
+{
+    "id":6,
+    "name":"Bembien Rosa Rattan Tote",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/83181636_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 654.00"
+},
+
+{
+    "id":7,
+    "name":"Bembien Lara Rattan Clutch",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/83181719_224_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 200.00"
+},
+{
+    "id":8,
+    "name":"Reformation Will Sheer Oversized Shirt",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400031_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 450.00"
+},
+{
+    "id":9,
+    "name":"Reformation Michaela Mini Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400004_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 335.00"
+},
+{
+    "id":10,
+    "name":"Reformation Kieryn Linen Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400019_015_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 120.00"
+},
+{
+    "id":11,
+    "name":"Reformation Bridgton Linen Midi Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+    "rating":3,
+    "price":"$ 252.00"
+},
+{
+    "id":12,
+    "name":"Reformation Bridgton Linen Midi Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b?$redesign-zoom-5x$",
+   "rating":3,
+   "price":"$ 323.64"
+},
+{
+    "id":13,
+    "name":"By Anthropologie Ruffled Eyelet Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4130647160168_049_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+   "rating":5,
+   "price":"$ 80.00"
+},
+
+
+{
+    "id":14,
+    "name":"Angel Alarcon Fisherman Flats",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/80263577_001_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+   "rating":2,
+   "price":"$ 120.00"
+},
+ {
+    "id":15,
+    "name":"Angel Alarcon Strappy Heels",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/67426239_070_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 150.00"
+   
+},
+{
+    "id":16,
+    "name":"Seychelles Banks Heels",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/78684008_070_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+    "price":"$ 129.00"
+},
+{
+    "id":17,
+    "name":"Seychelles One Of A Kind Platform Sandals",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/78749637_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":3,
+   "price":"$ 139.00"
+},
+{
+    "id":18,
+    "name":"Nisolo All-Day Heeled Mules",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/68995216_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 160.00"
+},
+
+
+{
+    
+    "id":19,
+    "name":"Raffia Flower Earrings",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/82344565_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 54.00"
+},
+{
+    "id":20,
+    "name":"Floral Raffia Drop Earrings",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/82224197_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 44.00"
+},
+{
+    
+    "id":21,
+    "name":"Double Teardrop Earrings",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/82163270_017_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 48.00"
+},
+{
+    
+    "id":22,
+    "name":"Deepa Gurnani Asta Circle Earrings",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/82351990_010_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 45.00"
+},
+{
+    
+    "id":23,
+    "name":"Deepa Gurnani Samudra Shell Earrings",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/82353939_029_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 275.00"
+},
+
+{
+    "id":24,
+    "name":"Maeve Tiered Strapless Tuule ress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4130370060118_066_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+   "rating":5,
+   "price":"$ 248.00"
+},
+{
+    
+    "id":25,
+    "name":"Let Me Be Sheer Tulle Tiered Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4130344600198_001_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 148.00"
+},
+{
+    
+    "id":26,
+    "name":"Let Me Be Tiered Fringe Ombre Dress",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/4130344600189_066_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":3,
+   "price":"$ 220.00"
+},
+
+{
+    "id":27,
+    "name":"By Anthropologie Keeper Belt",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/66989054_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 80.00"
+},
+{
+    
+    "id":28,
+    "name":"By Anthropologie Lace Bodysuit",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/78336203_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 98.00"
+},
+{
+    
+    "id":29,
+    "name":"Seamless V-Neck Mesh Bralette",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/81474264_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 28.00"
+},
+{
+    
+    "id":30,
+    "name":"B-Low The Belt Milla Square Belt",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/81628950_031_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+   "rating":3,
+   "price":"$ 140.00"
+},
+{
+    "id":31,
+    "name":"B-Low The Belt Amara Belt",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/81629032_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+    "rating":3,
+    "price":"$ 130.00"
+},
+
+{
+    
+    "id":32,
+    "name":"Nest Fragrances Eau De Parfum",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/49216096_072_b15?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+   "rating":5,
+   "price":"$ 186.00"
+},
+{
+    
+    "id":33,
+    "name":"Tocca Eau De Parfum",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/37394095_066_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":4,
+   "price":"$ 80.00"
+},
+{
+    
+    "id":34,
+    "name":"Tocca Mini Hand Cream",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/43673730_023_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":3,
+   "price":"$ 10.00"
+},
+{
+    
+    "id":35,
+    "name":"Nest Fragrances Mini Rollerball Trio",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/80100878_001_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 23.00"
+},
+
+{
+    
+    "id":36,
+    "name":"Nest Fragrances Perfume Oil Rollerball",
+    "image":"https://images.urbndata.com/is/image/Anthropologie/80101033_080_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+   "rating":5,
+   "price":"$ 34.00"
+}
+
+    ],
+
+    "Beaty_Product":[
+        {
+    
+            "id":1,
+            "name":"Nest Fragrances Eau De Parfum",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/49216096_072_b15?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 186.00",
+           "details":"Light-reflecting pigments give the appearance of more voluminous lips, and sheer colors let your lips shine through for a naturally enhanced look. Formulated with aloe and coconut oil, this lip color helps to keep your pout hydrated and smooth.",
+           "brand":"Style No. 82684747; Color Code: 085"
+        },
+        {
+            
+            "id":2,
+            "name":"Tocca Eau De Parfum",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/37394095_066_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 80.00",
+           "details":"This ultra-moisturizing, never sticky, high-shine gloss-balm hybrid moisturizes your lips while adding a just right pop of shine. Featuring an oversized applicator, this lightweight formula works to condition and nourish your lips all throughout the day. ",
+           "brand":"Style No. 69985901; Color Code: 066"
+        },
+        {
+            
+            "id":3,
+            "name":"Tocca Mini Hand Cream",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/43673730_023_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":3,
+           "price":"$ 10.00",
+           "details":"Formulated with natural shea, jojoba, and rose hip, this lip balm helps to soothe and soften.",
+           "brand":"Style No. 82684713; Color Code: 066"
+        },
+        {
+            
+            "id":4,
+            "name":"Nest Fragrances Mini Rollerball Trio",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80100878_001_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 23.00",
+           "details":"This pigmented plumping serum helps hydrate, soften, and smooth your lips.",
+           "brand":"Style No. 82251273; Color Code: 063"
+        },
+        
+        {
+            
+            "id":5,
+            "name":"Nest Fragrances Perfume Oil Rollerball",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80101033_080_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 34.00",
+           "details":"This versatile balm helps lock in moisture for softer, plumper-looking lips. Even better? It can be used on dry patches, cuticles, and cheekbones for a subtle highlight.",
+           "brand":"Style No. 82251257; Color Code: 066"
+        },
+        {
+            
+            "id":6,
+            "name":"Nest Fragrances Perfume Oil",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80100936_080_a11?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 98.00",
+           "details":"Key Ingredients: Hydrogenated Poly (C6-14 Olefin), Hydrogenated Polyisobutene, Simmondsia Chinensis (Jojoba) Seed Oil, Ethylene/Propylene/Styrene Copolymer, Octyldodecanol, Hydrogenated Polycyclopentadiene, Polyamide-3, Glycerin, Sodium Hyaluronate, Persea Gratissima (Avocado) Oil, Punica Granatum Flower Extract, Tetrahexyldecyl Ascorbate, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate.",
+           "brand":"Style No. 82251273; Color Code: 063"
+
+        },
+        {
+            
+            "id":7,
+            "name":"Flamingo Estate Garden Essentials Body Wash",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/83439380_037_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 46.00",
+           "details":"Wild-harvested off the coast of Big Sur, Flamingo Estate Sea Salt exfoliates, mineralizes, and maintains water balance in the skin; using a 260-year-old Icelandic-Danish salt drying method, a mineral content identical to natural seawater is produced. A blend of Shea Butter, Sandalwood Nut Oil, and Sunflower Oil works to moisturize, while Papaya FruitEnzymes exfoliate and brighten.",
+              "brand" : "Style No. 83439513; Color Code: 012"
+        },
+        {
+            
+            "id":8,
+            "name":"Flamingo Estate Euphoria Body Scrub",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/83439513_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 60.00",
+           "details":"Formulated with natural shea, jojoba, and rose hip, this lip balm helps to soothe and soften.",
+           "brand":"Style No. 82684713; Color Code: 014"
+        },
+        {
+            
+            "id":9,
+            "name":"Flamingo Estate Euphoria Body Lotion",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/83439489_012_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 72.00",
+           "details":"This Body Lotion radically boosts and enlivens with oils and butters, leaving the skin bright, quenched, and uplifted. Made with Avocado Oil, Jojoba Seed Oil, Shea Butter, and Sunflower Seed Oil, it features a bold and citric essential oil fragrance of Ionian Bergamot, Damask Rose, Pink Peppercorn, and White Sandalwood.",
+           "brand":"Style No. 83439489; Color Code: 012"
+        },
+        {
+            
+            "id":10,
+            "name":"Undone Beauty Lip Life Lip Balm",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82684713_014_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 34.00",
+           "details":"Formulated with natural shea, jojoba, and rose hip, this lip balm helps to soothe and soften.",
+           "brand":"Style No. 82684713; Color Code: 014"
+        }
+       
+    ],
+    "New_Dresses":[
+        {
+            "id":1,
+            "name":"Reformation Juliette Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 150.00"
+        },
+        {
+            "id":2,
+            "name":"Reformation Juliette Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 350.00"
+        },
+    
+      
+        {
+            "id":3,
+            "name":"Reformation Autumn Linen Jumpsuit",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400014_023_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":4,
+           "price":"$ 265.00"
+        }
+    , {
+        "id":4,
+        "name":"Reformation Abigail Linen Top",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400016_010_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 123.00"
+    },
+    
+     {
+        "id":5,
+        "name":"Reformation Orion Top",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400018_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 165.00"
+    },
+    {
+        "id":6,
+        "name":"Bembien Rosa Rattan Tote",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/83181636_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":4,
+       "price":"$ 654.00"
+    },
+    
+    {
+        "id":7,
+        "name":"Bembien Lara Rattan Clutch",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/83181719_224_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 200.00"
+    },
+    {
+        "id":8,
+        "name":"Reformation Will Sheer Oversized Shirt",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400031_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":4,
+       "price":"$ 450.00"
+    },
+    {
+        "id":9,
+        "name":"Reformation Michaela Mini Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400004_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 335.00"
+    },
+    {
+        "id":10,
+        "name":"Reformation Kieryn Linen Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400019_015_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 120.00"
+    },
+    {
+        "id":11,
+        "name":"Reformation Bridgton Linen Midi Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+        "rating":3,
+        "price":"$ 252.00"
+    },
+    {
+        "id":12,
+        "name":"Reformation Bridgton Linen Midi Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b?$redesign-zoom-5x$",
+       "rating":3,
+       "price":"$ 323.64"
+    },
+    {
+        "id":13,
+        "name":"By Anthropologie Ruffled Eyelet Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4130647160168_049_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+       "rating":5,
+       "price":"$ 80.00"
+    },
+    
+        {
+            "id":14,
+            "name":"Maeve Tiered Strapless Tuule ress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4130370060118_066_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 248.00"
+        },
+        {
+            
+            "id":15,
+            "name":"Let Me Be Sheer Tulle Tiered Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4130344600198_001_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 148.00"
+        },
+        {
+            
+            "id":16,
+            "name":"Let Me Be Tiered Fringe Ombre Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4130344600189_066_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":3,
+           "price":"$ 220.00"
+        }
+    ],
+    "Dresses":[
+        {
+            "id":1,
+            "name":"Reformation Juliette Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 150.00"
+        },
+        {
+            "id":2,
+            "name":"Reformation Juliette Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400010_000_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 350.00"
+        },
+    
+      
+        {
+            "id":3,
+            "name":"Reformation Autumn Linen Jumpsuit",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400014_023_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":4,
+           "price":"$ 265.00"
+        }
+    , {
+        "id":4,
+        "name":"Reformation Abigail Linen Top",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400016_010_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 123.00"
+    },
+    
+     {
+        "id":5,
+        "name":"Reformation Orion Top",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400018_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 165.00"
+    },
+    {
+        "id":6,
+        "name":"Bembien Rosa Rattan Tote",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/83181636_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":4,
+       "price":"$ 654.00"
+    },
+    
+    {
+        "id":7,
+        "name":"Bembien Lara Rattan Clutch",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/83181719_224_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 200.00"
+    },
+    {
+        "id":8,
+        "name":"Reformation Will Sheer Oversized Shirt",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400031_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":4,
+       "price":"$ 450.00"
+    },
+    {
+        "id":9,
+        "name":"Reformation Michaela Mini Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400004_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 335.00"
+    },
+    {
+        "id":10,
+        "name":"Reformation Kieryn Linen Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400019_015_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+       "rating":5,
+       "price":"$ 120.00"
+    },
+    {
+        "id":11,
+        "name":"Reformation Bridgton Linen Midi Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+        "rating":3,
+        "price":"$ 252.00"
+    },
+    {
+        "id":12,
+        "name":"Reformation Bridgton Linen Midi Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400005_060_b?$redesign-zoom-5x$",
+       "rating":3,
+       "price":"$ 323.64"
+    },
+    {
+        "id":13,
+        "name":"By Anthropologie Ruffled Eyelet Dress",
+        "image":"https://images.urbndata.com/is/image/Anthropologie/4130647160168_049_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+       "rating":5,
+       "price":"$ 80.00"
+    }
+    
+    ],
+    "Jewelary":[
+        
+        {
+    
+            "id":1,
+            "name":"Raffia Flower Earrings",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82344565_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 54.00"
+        },
+        {
+            "id":2,
+            "name":"Floral Raffia Drop Earrings",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82224197_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 44.00"
+        },
+        {
+            
+            "id":3,
+            "name":"Double Teardrop Earrings",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82163270_017_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 48.00"
+        },
+        {
+            
+            "id":4,
+            "name":"Deepa Gurnani Asta Circle Earrings",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82351990_010_b10?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 45.00"
+        },
+        {
+            
+            "id":5,
+            "name":"Deepa Gurnani Samudra Shell Earrings",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/82353939_029_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 275.00"
+        },
+        {
+            "id":6,
+            "name":"Bembien Rosa Rattan Tote",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/83181636_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 654.00"
+        },
+        
+        {
+            "id":7,
+            "name":"Bembien Lara Rattan Clutch",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/83181719_224_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 200.00"
+        },
+        {
+            "id":8,
+            "name":"Reformation Will Sheer Oversized Shirt",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400031_010_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 450.00"
+        },
+        {
+            "id":9,
+            "name":"Reformation Michaela Mini Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400004_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 335.00"
+        },
+        {
+            "id":10,
+            "name":"Reformation Kieryn Linen Dress",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/4139952400019_015_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 120.00"
+        }
+    ],
+    "Shoes":[
+        {
+            "id":1,
+            "name":"Angel Alarcon Fisherman Flats",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80263577_001_b2?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":2,
+           "price":"$ 120.00",
+           "details":"Bass shoes began in 1876 as the humble shoemaking enterprise of George Henry Bass. His styles are renowned for their high-quality craftsmanship and enduring design - from the time they first started until today.",
+           "brand":"Style No. 80611577; Color Code: 055"
+        },
+         {
+            "id":2,
+            "name":"Angel Alarcon Strappy Heels",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/67426239_070_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 150.00",
+           "details":"Bass shoes began in 1876 as the humble shoemaking enterprise of George Henry Bass. His styles are renowned for their high-quality craftsmanship and enduring design - from the time they first started until today.",
+           "brand":"Style No. 80611577; Color Code: 045"
+           
+        },
+        {
+            "id":3,
+            "name":"Seychelles Banks Heels",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/78684008_070_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+            "price":"$ 129.00",
+            "details":"Leather upper, insoleRubber sole Leather-wrapped heelSlip-on stylingImported",
+            "brand":"Style No. 78517976; Color Code: 001"
+        },
+        {
+            "id":4,
+            "name":"Seychelles One Of A Kind Platform Sandals",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/78749637_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":3,
+           "price":"$ 139.00",
+           "details":"Geared toward trendsetters and fashion explorers in search of the unique, Seychelles combines cutting-edge silhouettes with timeless vintage details. The result is a romantic collection of flats, heels and booties with an old soul and a modern finish.",
+           "brand":"Style No. 63648877; Color Code: 053"
+        },
+        {
+            "id":5,
+            "name":"Nisolo All-Day Heeled Mules",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/68995216_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 160.00",
+           "details":"Bass shoes began in 1985 as the humble shoemaking enterprise of George Henry Bass. His styles are renowned for their high-quality craftsmanship and enduring design - from the time they first started until today.",
+           "brand":"Style No. 80611577; Color Code: 085"
+        },
+        {
+            "id":6,
+            "name":"Vicenza Bow Mary Jane Flats",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/70782776_001_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":5,
+           "price":"$ 120.00",
+           "details":"Geared toward trendsetters and fashion explorers in search of the unique, Seychelles combines cutting-edge silhouettes with timeless vintage details. The result is a romantic collection of flats, heels and booties with an old soul and a modern finish.",
+           "brand":"Style No. 63648877; Color Code: 023"
+        },
+         {
+            "id":7,
+            "name":"G.H. Bass Mary Jane Flats",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80612039_012_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 185.00",
+           "details":"Intentionally purpose is simple: to create the pieces that help you fill  in your personal style mantra. From statement mules to minimal boots, the brand is not one to shy away from the latest trend - but maintains a firm footing in its own commitment to crafting high-quality, timeless silhouettes.",
+           "brand":"Style No. 79773321; Color Code: 008"
+        },
+           
+        
+        {
+            "id":8,
+            "name":"G.H. Bass Fisherman Mary Jane Flats",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/80611577_055_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+            "price":"$ 190.00",
+            "details":"The name 'Maeve' references a purple flower, a Greek goddess, and a famously beautiful Irish warrior queen. In light of these inspirations, it's no surprise that their collection is structured yet delicate, a representation of beauty and strength at once. Each Maeve design is refined, flattering, and - best of all - exclusively ours.",
+            "brand":"Style No. 79810123; Color Code: 001"
+        },
+        {
+            "id":9,
+            "name":"Intentionally Blank Piano Mary Jane Heels",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/79773321_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 250.00",
+           "details":"Intentionally Blank's purpose is simple: to create the pieces that help you fill the 'blanks' in your personal style mantra. From statement mules to minimal boots, the brand is not one to shy away from the latest trend - but maintains a firm footing in its own commitment to crafting high-quality, timeless silhouettes.",
+           "brand":"Style No. 79773321; Color Code: 061"
+        },
+        {
+            "id":10,
+            "name":"Maeve Mary Jane Wedge Heels",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/79810123_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":3,
+           "price":"$ 160.00",
+           "details":"The name 'Maeve' references a purple flower, a Greek goddess, and a famously beautiful Irish warrior queen. In light of these inspirations, it's no surprise that their collection is structured yet delicate, a representation of beauty and strength at once. Each Maeve design is refined, flattering, and - best of all - exclusively ours.",
+           "brand":"Style No. 79810123; Color Code: 001"
+        }
+    ],
+
+    "belts":[
+        {
+            "id":1,
+            "name":"By Anthropologie Keeper Belt",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/66989054_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 80.00",
+           "details":"Leather, metalBuckle styling,Imported.",
+           "brand":"Style No. 81628950; Color Code: 031"
+        },
+        {
+            
+            "id":2,
+            "name":"By Anthropologie Lace Bodysuit",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/78336203_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 98.00",
+           "details":"Leather, metal,Imported.",
+           "brand":"Style No. 81630659; Color Code: 025"
+        },
+        {
+            
+            "id":3,
+            "name":"Seamless V-Neck Mesh Bralette",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/81474264_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 28.00",
+           "details":"Leather, metal,Imported,metalBuckle styling.",
+           "brand":"Style No. 81630659; Color Code: 036"
+        },
+        {
+            
+            "id":4,
+            "name":"B-Low The Belt Milla Square Belt",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/81628950_031_b14?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=640",
+           "rating":3,
+           "price":"$ 140.00",
+           "details":"Leather, metal,Imported.",
+           "brand":"Style No. 66989054; Color Code: 001"
+        },
+        {
+            "id":5,
+            "name":"B-Low The Belt Amara Belt",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/81629032_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+            "rating":3,
+            "price":"$ 130.00",
+            "details":"Polyamide, elastane Pullover styling Hand wash Imported.",
+            "brand":"Style No. 78336203; Color Code: 001"
+        },
+        {
+            
+            "id":6,
+            "name":"Seamless V-Neck Mesh Bralette",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/78336203_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":4,
+           "price":"$ 28.00",
+           "details":"Leather, metal,Imported,metalBuckle styling.",
+           "brand":"Style No. 81630659; Color Code: 036"
+        },
+        {
+            
+            "id":7,
+            "name":"By Anthropologie Pointelle Bodysuit ",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/78417854_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 58.00",
+           "details":"Modal, polyamide, elastane Hand wash Imported.",
+           "brand":"Style No. 78417854; Color Code: 001"
+        },
+        {
+            
+            "id":8,
+            "name":"By Anthropologie Pointelle Bodysuit ",
+            "image":"https://images.urbndata.com/is/image/Anthropologie/79006029_001_b?$a15-pdp-detail-shot$&fit=constrain&fmt=webp&qlt=80&wid=540",
+           "rating":5,
+           "price":"$ 58.00",
+           "details":"Modal, polyamide, elastane Hand wash Imported.",
+           "brand":"Style No. 78417854; Color Code: 001"
+        }
+    ]
+  }
