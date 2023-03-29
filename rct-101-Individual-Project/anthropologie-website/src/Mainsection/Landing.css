@@ -1,0 +1,65 @@
+
+.Poster1-Image{
+    width: 90%;
+    margin: auto;
+  display: flex;
+
+}
+
+.Image-poster-1{
+    width: 67%;
+
+ 
+}
+.Image-poster-2{
+
+    width: 33%;
+   
+    }
+
+    
+    
+.Image-poster-2>img{
+width: 100%;
+margin-top: 30px;
+margin-bottom: 30px;
+
+    }
+
+    .Image-poster-1>img{
+        width: 100%;
+margin-bottom: 30px;
+margin-top: 30px;
+
+    }
+    /* @media only screen and (max-width: 600px) {
+        .Poster1-Image {
+          background-color: lightcoral;
+        }
+      } */
+
+      .image-poster{
+    
+  width: 90%;
+        display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: auto;
+  
+      }
+      .image-poster>img{
+        width: 100%;
+      }
+
+      .image-poster-box{
+        width: 100%;
+         margin-top: 10px;
+        
+      }
+
+       @media only screen and (max-width: 600px) {
+        .image-poster{
+       display: grid;
+       grid-template-columns: repeat(2,1fr)
+        }
+      }

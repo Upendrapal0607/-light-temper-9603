@@ -1,0 +1,84 @@
+.SignUp:hover{
+    cursor: pointer;
+    /* background: gray; */
+    font-size: large;
+    border: 1px solid green;
+    padding:0px 5px;
+    border-radius: 5px;
+    
+}
+.Lunguage-Icon{
+margin-left: 200px;
+
+}
+
+.logo-name{
+    border-top: 3px solid #4DB6AC;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 10px;
+  letter-spacing: 4px;
+     
+}
+.logo-style{
+    border-right:1px solid lightgray;
+    border-left:1px solid lightgray;
+    padding: 10px;
+}
+.cart-icon{
+    cursor: pointer;
+    padding: 5px;
+
+}
+.search{
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+/* position: relative; */
+/* position: sticky; */
+
+width: 100%;
+
+}
+
+.third-nav{
+border-top: 1px solid lightgray;
+border-bottom: 1px solid lightgray;
+box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+width: 100%;
+gap: 10px;
+/* position: relative; */
+padding: 1%;
+
+}
+
+.third-nav-box{
+   line-height: 100%;
+    padding: 5%;
+    align-items: center;
+    /* margin: auto; */
+
+}
+.size{
+  
+    height: 300px;
+    border: 2px solid blue;
+  
+
+}
+.position{
+ width: 100%;
+ top: 0px; 
+ position:sticky; 
+ flex-direction: column;
+ background-color: white;
+ /* border: 1px solid red; */
+
+}
+.Modalbox1{
+ /* border: 2px solid blue; */
+ /* width: 500%; */
+ /* padding-top: 200px; */
+ height: 10px;
+}
