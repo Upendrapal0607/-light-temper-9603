@@ -181,8 +181,6 @@ export function Dresses() {
 
 <Flex>
 <MenuList style={{
-
- // border:'2px solid red',
  border:'none',
  width:'50%'
  ,marginTop:'6%',
@@ -190,6 +188,7 @@ export function Dresses() {
  
 }}>
  {/* MenuItems are not rendered unless Menu is open */}
+ 
  <MenuItem >Shop By Categary</MenuItem>
  <div style={{width:'90%', border:'0.5px solid #BDBDBD'}}></div>
  <MenuItem>Shop All Dresses</MenuItem>
@@ -211,7 +210,7 @@ export function Dresses() {
  border:'none',
  
  marginTop:'6%',
- marginLeft:'100%',
+ marginLeft:'95%',
  width:'50%',height:'50px'
  
 }}>
