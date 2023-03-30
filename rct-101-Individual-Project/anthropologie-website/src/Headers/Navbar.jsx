@@ -9,6 +9,7 @@ import {
   Spacer,
   ButtonGroup,
   Button,
+  Grid,
   Select,
   Text,
   Input,
@@ -19,12 +20,9 @@ import {
   Image,
 } from "@chakra-ui/react";
 import "./Navbar.css";
-import Product from "./../db.json";
+// import Product from "./../db.json";
 import Product1 from "../db.json";
-import Product2 from ".././db.json";
-// import logo1 from '../Image/TopImagePoster1.jpg';
-//  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-//  import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faUser,
@@ -33,14 +31,18 @@ import {
   faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
 import { NewItem, Toprated, Dresses } from "./Modelnew";
-// import { TopPoster } from "../Mainsection/MultipleLandingCart";
+
 import { LandingPage } from "../Mainsection/Landing";
 
-// import { LandingPage } from "../Mainsection/Landing";
-// import { LandingPage } from "../Mainsection/Landing";
+import { Slider1, Slider2, SliderSpacer, SliderSpacer2 } from "../Mainsection/Carousel";
+import { MoretoExplore } from "../Mainsection/MultipleLandingCart";
+import { Footer } from "../Footer/Footer";
+
+
 
 export default function Navbar() {
   
+ 
   return (
     <VStack>
       <Image  />
@@ -151,6 +153,15 @@ export default function Navbar() {
       </Flex>
 
 <LandingPage />
+<Slider1 />
+<SliderSpacer />
+<Slider2 />
+<SliderSpacer2 />
+<MoretoExplore />
+<Footer />
+<SimpleGrid>
+{Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)}
+</SimpleGrid> 
 
     </VStack>
   );
