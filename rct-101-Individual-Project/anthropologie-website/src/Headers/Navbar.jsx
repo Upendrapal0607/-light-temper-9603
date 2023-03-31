@@ -1,6 +1,7 @@
 import {
   Stack,
   HStack,
+  
   VStack,
   Box,
   StackDivider,
@@ -19,6 +20,8 @@ import {
   SimpleGrid,
   Image,
 } from "@chakra-ui/react";
+
+
 import "./Navbar.css";
 // import Product from "./../db.json";
 import Product1 from "../db.json";
@@ -30,7 +33,7 @@ import {
   faCartShopping,
   faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
-import { NewItem, Toprated, Dresses } from "./Modelnew";
+import { NewItem, Toprated, Dresses, Login, Signin } from "./Modelnew";
 
 import { LandingPage } from "../Mainsection/Landing";
 
@@ -76,10 +79,11 @@ export default function Navbar() {
         </Box>
         <Flex gap={1}>
           <Text color="gray.500" className="SignUp">
-            Sign In
+             <Signin />
+
           </Text>
-          /
-          <Spacer />
+        
+          {/* <Spacer /> */}
           <Text
             onClick={() => {
               console.log("Upendra");
@@ -88,7 +92,7 @@ export default function Navbar() {
             className="SignUp"
           >
             {" "}
-            Sign Up
+             <Login />
           </Text>
         </Flex>
       </Flex>
@@ -133,6 +137,7 @@ export default function Navbar() {
           className="third-nav"
           minChildWidth="10%"
           minWidth="max-content"
+          
         >
           <Box className="third-nav-box">
             <NewItem />
@@ -160,7 +165,7 @@ export default function Navbar() {
 <MoretoExplore />
 <Footer />
 <SimpleGrid>
-{Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)}
+{/* {Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)} */}
 </SimpleGrid> 
 
     </VStack>

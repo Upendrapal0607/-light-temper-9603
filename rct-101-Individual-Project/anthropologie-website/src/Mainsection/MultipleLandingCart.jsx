@@ -10,13 +10,8 @@ import "./Landing.css";
 import Product from "../db.json";
 import { Link } from '@chakra-ui/react';
 
+import { Navigate } from "react-router-dom";
 
-// import Slider from "react-slick";
-// import "~slick-carousel/slick/slick.css"; 
-// import "~slick-carousel/slick/slick-theme.css";
-
-// import React, { Component } from 'react';
-// import Carousel from 'react-elastic-carousel';
 
 export function TopPoster() {
 
@@ -37,9 +32,13 @@ export function TopPoster() {
 }
 
 export function ImagePoster(){
+
+  
     return <div>
         <div className='image-poster' style={{marginBottom:"30px"}}>
-            <div className='image-poster-box'><img src={image1} alt="" />
+            <div className='image-poster-box'>
+           
+              <img src={image1} alt="" />
           <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop Dresses</button>
           </div>
@@ -49,6 +48,7 @@ export function ImagePoster(){
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop New Clothing</button>
           </div>
             </div>
+
             <div className='image-poster-box'><img src={image3} alt="" />
  <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop Jewelry</button>

@@ -7,17 +7,38 @@ import {
   MenuGroup,
   MenuOptionGroup,
   MenuDivider,
+  Checkbox,
+  Input,
+  FormLabel,
   Box,
   Spacer,
+  Text,
+  FormControl,
   Flex,
   Heading,
   border,
+  Button,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalBody,
+  ModalCloseButton,
+  useDisclosure,
 } from '@chakra-ui/react'
 
+
+
   import './Navbar.css';
+import React, { useContext } from 'react';
+
+
+import {AuthContext } from '../Context/Authcontext';
+
 
 export function NewItem() {
-
+const {setisAuth}=useContext(AuthContext)
     return (
       
       <Box className='Modalbox1' >
@@ -249,5 +270,262 @@ export function Dresses() {
 </Flex>
 </Menu>
    </Box>
+  )
+}
+
+
+
+
+export function Signin() {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const {setname,setisAuth,setTocken,name, tocken}=useContext(AuthContext)
+  const initialRef = React.useRef(null)
+  const finalRef = React.useRef(null)
+
+const changehandle=(e)=>{
+setTocken(e.target.value)
+}
+const changehandle2=(e)=>{
+  setname(e.target.value)
+}
+
+console.log(tocken);
+
+console.log(('up@gmail.com'.includes("(@"&&".com")&&tocken.length>8&&name.length>=4));
+const clickLoginHandl=()=>{
+  if((tocken.includes("(@"&&".com")&&tocken.length>8)){
+    setisAuth(false)
+  }
+  else{
+    alert('Please fill correct Infarmation')
+  }
+  onClose()
+}
+
+
+
+
+  return (
+    <>
+      <Button onClick={onOpen} >Sign In</Button>
+      {/* <Button ml={4} ref={finalRef}>
+      
+      </Button> */}
+
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Create your account</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <Text>Sign in so you can save items to your wishlists, track your orders, and check out faster!</Text>
+            <FormControl mt={5}>
+              <FormLabel>Email</FormLabel>
+              <Input onChange={changehandle} value={tocken} ref={initialRef} placeholder='Email Id' />
+            </FormControl>
+
+           <FormControl>
+              <FormLabel>Name</FormLabel>
+              <Input onChange={changehandle2} value={name} ref={initialRef} placeholder='Name' />
+            </FormControl> 
+            
+  <Checkbox size='md' mt={5} colorScheme='green'>
+  Keep me signed in
+  </Checkbox>
+
+            <FormControl mt={4}>
+          
+          <Button onClick={clickLoginHandl} pt={2} width={400} pb={2} alignItems='center' colorScheme='blue'>SUBMIT</Button>
+            </FormControl>
+
+            <FormControl mt={4}>
+          
+          <Button  pt={2} width={400} pb={2}  alignItems='center' className='use-mobile'>USE MOBILE NUMBER INSTREAT</Button>
+            </FormControl>
+          </ModalBody>
+
+          <ModalFooter>
+            {/* <Button  colorScheme='blue' mr={3}>
+              Save
+            </Button> */}
+            <Button width={400} onClick={onClose}>Cancel</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+    </>
+  )
+}
+
+
+
+// Mobile Number login
+
+ function Mobile() {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const {setisAuth,setTocken, tocken}=useContext(AuthContext)
+  const initialRef = React.useRef(null)
+  const finalRef = React.useRef(null)
+
+const changehandle=(e)=>{
+
+setTocken(e.target.value)
+}
+
+console.log(tocken);
+const clickLoginHandl=()=>{
+
+  onClose()
+}
+
+  return (
+    <>
+      <Button onClick={onOpen} >Sign In with Mobile Number</Button>
+      {/* <Button ml={4} ref={finalRef}>
+      
+      </Button> */}
+
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Create your account</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <Text>Sign in so you can save items to your wishlists, track your orders, and check out faster!</Text>
+            <FormControl mt={5}>
+              <FormLabel>Mobile Number</FormLabel>
+              <Input onChange={changehandle} value={tocken} ref={initialRef} placeholder='Mobile Number' />
+            </FormControl>
+
+           <FormControl>
+              <FormLabel>Name</FormLabel>
+              <Input  ref={initialRef} placeholder='Name' />
+            </FormControl> 
+            
+  <Checkbox size='md' mt={5} colorScheme='green'>
+  Keep me signed in
+  </Checkbox>
+
+            <FormControl mt={4}>
+          
+          <Button pt={2} width={400} pb={2} alignItems='center' colorScheme='blue'>SUBMIT</Button>
+            </FormControl>
+
+            <FormControl mt={4}>
+          
+          <Button pt={2} width={400} pb={2} onClick={()=>{<Login />}} alignItems='center' className='use-mobile'>USE MOBILE NUMBER INSTREAT</Button>
+            </FormControl>
+          </ModalBody>
+
+          <ModalFooter>
+            <Button onClick={clickLoginHandl} colorScheme='blue' mr={3}>
+              Save
+            </Button>
+            <Button onClick={onClose}>Cancel</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+    </>
+  )
+}
+
+
+
+
+
+
+
+export function Login() {
+
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const {setname,setisAuth,setTocken,name, tocken}=useContext(AuthContext)
+  const initialRef = React.useRef(null)
+  const finalRef = React.useRef(null)
+
+const changehandle=(e)=>{
+setTocken(e.target.value)
+}
+const changehandle2=(e)=>{
+  setname(e.target.value)
+}
+
+console.log(tocken);
+
+console.log(('up@gmail.com'.includes("(@"&&".com")&&tocken.length>8&&name.length>=4));
+const clickLoginHandl=()=>{
+  if((tocken.includes("(@"&&".com")&&tocken.length>8)){
+    setisAuth(false)
+  }
+  else{
+    alert('Please fill correct Infarmation')
+  }
+  onClose()
+}
+
+
+
+
+  return (
+    <>
+      <Button onClick={onOpen} >Sign Up</Button>
+      {/* <Button ml={4} ref={finalRef}>
+      
+      </Button> */}
+
+      <Modal
+        initialFocusRef={initialRef}
+        finalFocusRef={finalRef}
+        isOpen={isOpen}
+        onClose={onClose}
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>Create your account</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody pb={6}>
+            <Text>Sign in so you can save items to your wishlists, track your orders, and check out faster!</Text>
+            <FormControl mt={5}>
+              <FormLabel>Email</FormLabel>
+              <Input onChange={changehandle} value={tocken} ref={initialRef} placeholder='Email Id' />
+            </FormControl>
+
+           <FormControl>
+              <FormLabel>Name</FormLabel>
+              <Input onChange={changehandle2} value={name} ref={initialRef} placeholder='Name' />
+            </FormControl> 
+            
+  <Checkbox size='md' mt={5} colorScheme='green'>
+  Keep me signed in
+  </Checkbox>
+
+            <FormControl mt={4}>
+          
+          <Button onClick={clickLoginHandl} pt={2} width={400} pb={2} alignItems='center' colorScheme='blue'>SUBMIT</Button>
+            </FormControl>
+
+            <FormControl mt={4}>
+          
+          <Button  pt={2} width={400} pb={2}  alignItems='center' className='use-mobile'>USE MOBILE NUMBER INSTREAT</Button>
+            </FormControl>
+          </ModalBody>
+
+          <ModalFooter>
+            {/* <Button  colorScheme='blue' mr={3}>
+              Save
+            </Button> */}
+            <Button width={400} onClick={onClose}>Cancel</Button>
+          </ModalFooter>
+        </ModalContent>
+      </Modal>
+    </>
   )
 }
