@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLocationDot} from "@fortawesome/free-solid-svg-icons";
 export function Footer(){
     return (
-        <div className="main">Footer
+        <div className="main">
             <div className="main-section">
                 <div className="about-us">
         <h1 style={{color:"black",fontWeight:"500"}}>About Us</h1>
@@ -24,8 +24,8 @@ export function Footer(){
               <p>Receive early access to new arrivals, sales, exclusive content, events</p>
               <p>and much more!</p>
                         </div>
-                        <div className="input-submit">
-             <div className="manage-btm">
+                        <div className="input-submit" style={{border:"1px solid blue"}}>
+             <div className="manage-btm" style={{border:"1px solid red"}}>
                                            
 <p>Email Adress</p>
  <input className="input-manage" style={{border:"1px solid gray",padding:"0.5rem",outlineColor:"#4CAF50"}} type="text" name="" id="" />

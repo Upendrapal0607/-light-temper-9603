@@ -188,7 +188,7 @@ width: 50%;
     width: 20%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 200px) and (max-width: 600px) {
     .login-part{
         flex-direction: column;   
     }
@@ -200,10 +200,14 @@ width: 50%;
     }
     .input-manage{
         width: 200px;
+        display: inline;
     }
 
     .header-about-part{
         grid-template-columns: repeat(1,1fr);
+    }
+    .main-section{
+        width: 500px;
     }
     /* .google-map-maintain-box{
         grid-template-columns: repeat(2,1fr); 

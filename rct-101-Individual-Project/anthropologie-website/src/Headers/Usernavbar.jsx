@@ -173,13 +173,13 @@ import { useContext } from "react";
           </SimpleGrid>
         </Flex>
   
-  <LandingPage />
+  {/* <LandingPage />
   <Slider1 />
   <SliderSpacer />
   <Slider2 />
   <SliderSpacer2 />
   <MoretoExplore />
-  <Footer />
+  <Footer /> */}
   <SimpleGrid>
   {/* {Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)} */}
   </SimpleGrid> 
