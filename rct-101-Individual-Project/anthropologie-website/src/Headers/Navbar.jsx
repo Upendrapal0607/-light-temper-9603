@@ -19,6 +19,7 @@ import {
   InputRightAddon,
   SimpleGrid,
   Image,
+  Link,
 } from "@chakra-ui/react";
 
 
@@ -36,18 +37,108 @@ import {
 import { NewItem, Toprated, Dresses, Login, Signin } from "./Modelnew";
 
 import { LandingPage } from "../Mainsection/Landing";
-
-import { Slider1, Slider2, SliderSpacer, SliderSpacer2 } from "../Mainsection/Carousel";
-import { MoretoExplore } from "../Mainsection/MultipleLandingCart";
-import { Footer } from "../Footer/Footer";
-
-
+import { Navigate, useNavigate } from "react-router-dom";
 
 export default function Navbar() {
-  
- 
+  const navigate=useNavigate()
   return (
-    <VStack>
+    <div className="nav-bar">
+      {/* first nav start */}
+      <div className="nav-top-box">
+      <div >
+
+      </div>
+
+      <div className="nav-top-box-1">
+      <div className="Lunguage-Icon">
+            <FontAwesomeIcon icon={faGlobe} />
+            <select style={{padding:'2px',outline:"none",border:'1px solid gray'}}>
+            <option>English($)</option>
+            <option>Hindi(H)</option>
+            <option>French(F)</option>
+            <option>Arabic(A)</option>
+            <option>Russian(R)</option>
+            <option>Spanish(S)</option>
+          </select>
+          </div>
+          <div className="login-box" style={{display:'flex',alignItems:"center"}}>
+          <div style={{fontSize:"20px"}}>
+          <FontAwesomeIcon icon={faUser} />
+        </div>
+        <div style={{display:"flex",gap:"10px"}}>
+          <div color="gray.500" className="SignUp">
+             <Signin />
+           </div>
+       <p
+           color="gray.500"
+            className="SignUp"
+          >
+           <Login />
+          </p>
+        </div>
+          </div>
+      </div>
+
+      </div>
+
+{/* first nav end */}
+
+
+{/* second nav start */}
+<div className="fixing-nav">
+
+      <div className="second-nav-box position">
+  <div className="second-nav-item search">
+  <p className="logo-name">ANTHROPOLOGIE</p>
+            <br />
+            <p className="logo-style">ANTHROPOLOGIE</p>
+  </div>
+
+  <div style={{display:"flex",gap:"12px"}}>
+            <InputGroup size="sm" alignItems="center">
+              <Input placeholder="Search anthologie" pt={4} pb={4} w={300} />
+              <InputRightAddon
+                padding={4}
+                fontSize={25}
+                children={<FontAwesomeIcon icon={faMagnifyingGlass} />}
+              />
+            </InputGroup>
+            <Box onClick={()=>navigate("/Cart")} className="cart-icon" p={6} fontSize={25}>
+              <FontAwesomeIcon icon={faCartShopping} />
+            </Box>
+          </div>
+      </div>
+
+{/* Second navbar End  */}
+
+{/* Thired nav bar start */}
+
+      <div  className="third-nav" style={{display:'flex',flexWrap:'wrap'}}>
+    
+      <Box className="third-nav-box">
+          New!
+          </Box>
+      <Box className="third-nav-box" onClick={()=>navigate("/Toprated")}>
+            Top-Rared 
+          </Box>
+          <Box className="third-nav-box">
+           Dresses 
+           
+          </Box>
+          <Box className="third-nav-box">Clothing</Box>
+          <Box className="third-nav-box">Wedding</Box>
+          <Box className="third-nav-box">Home & Furniture</Box>
+          <Box className="third-nav-box">Beuty & Wellness</Box>
+          <Box className="third-nav-box">Gift & Candles</Box>
+          <Box className="third-nav-box">Sale</Box>
+      </div>
+
+
+      </div>
+
+    </div>
+
+  /*  <VStack>
       <Image  />
       <Flex
         alignItems="center"
@@ -58,8 +149,8 @@ export default function Navbar() {
         pl={5}
         width="100%"
       >
-        <Box></Box>
-        <Spacer />
+         <Box></Box> 
+       <Spacer />
 
         <Flex alignItems="center">
           <Box className="Lunguage-Icon">
@@ -78,26 +169,21 @@ export default function Navbar() {
           <FontAwesomeIcon icon={faUser} />
         </Box>
         <Flex gap={1}>
-          <Text color="gray.500" className="SignUp">
+          <Box color="gray.500" className="SignUp">
              <Signin />
-
-          </Text>
-        
-          {/* <Spacer /> */}
-          <Text
-            onClick={() => {
-              console.log("Upendra");
-            }}
-            color="gray.500"
+           </Box>
+       <Text
+           color="gray.500"
             className="SignUp"
           >
-            {" "}
-             <Login />
+           <Login />
           </Text>
         </Flex>
       </Flex>
 
-      {/* Second Navbar Line */}
+
+
+       Second Navbar Line 
       <Flex className="position">
         <Flex
           className="search"
@@ -110,10 +196,11 @@ export default function Navbar() {
      
         >
           <Flex gap={5}>
-            <Box className="logo-name">ANTHROPOLOGIE</Box>
+            <Box className="logo-name" onClick={()=>Navigate("/cart")}>ANTHROPOLOGIE</Box>
             <Spacer />
             <Box className="logo-style">ANTHROPOLOGIE</Box>
-          </Flex>
+           
+           </Flex>
           <Spacer />
 
           <Flex gap={6}>
@@ -125,15 +212,18 @@ export default function Navbar() {
                 children={<FontAwesomeIcon icon={faMagnifyingGlass} />}
               />
             </InputGroup>
-            <Box className="cart-icon" p={6} fontSize={30}>
+            <Box style={{border:'1px solid red'}} className="cart-icon" p={6} fontSize={30}>
               <FontAwesomeIcon icon={faCartShopping} />
             </Box>
           </Flex>
-        </Flex>
+        </Flex> 
 
-        {/* Third Navbar Line */}
 
-        <SimpleGrid
+
+
+        Third Navbar Line 
+
+         <SimpleGrid
           className="third-nav"
           minChildWidth="10%"
           minWidth="max-content"
@@ -143,7 +233,8 @@ export default function Navbar() {
             <NewItem />
           </Box>
           <Box className="third-nav-box">
-            <Toprated />
+            <Toprated /> 
+           <Login /> 
           </Box>
           <Box className="third-nav-box">
             <Dresses />
@@ -155,19 +246,19 @@ export default function Navbar() {
           <Box className="third-nav-box">Gift & Candles</Box>
           <Box className="third-nav-box">Sale</Box>
         </SimpleGrid>
-      </Flex>
+      </Flex> 
 
-<LandingPage />
-<Slider1 />
+ <LandingPage /> 
+<Slider1 /> 
 <SliderSpacer />
-<Slider2 />
-<SliderSpacer2 />
-<MoretoExplore />
-<Footer />
-<SimpleGrid>
-{/* {Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)} */}
-</SimpleGrid> 
+ <Slider2 /> 
+ <SliderSpacer2 /> 
+ <MoretoExplore /> 
+ <Footer /> 
+ <SimpleGrid> 
+ {Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)}
+ </SimpleGrid> 
 
-    </VStack>
+  //  </VStack> */
   );
 }

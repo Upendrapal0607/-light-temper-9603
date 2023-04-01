@@ -10,7 +10,7 @@ import "./Landing.css";
 import Product from "../db.json";
 import { Link } from '@chakra-ui/react';
 
-import { Navigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 
 
 export function TopPoster() {
@@ -32,15 +32,18 @@ export function TopPoster() {
 }
 
 export function ImagePoster(){
-
+  
+  const navigate = useNavigate()
   
     return <div>
         <div className='image-poster' style={{marginBottom:"30px"}}>
-            <div className='image-poster-box'>
+       
+            <div className='image-poster-box' style={{border:"5px solid red"}} onClick={()=>navigate("/Product")}>
            
               <img src={image1} alt="" />
           <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop Dresses</button>
+       
           </div>
             </div>
             <div className='image-poster-box'><img src={image2} alt="" />
@@ -112,9 +115,9 @@ export function MothersDayImage(){
  
 export function TopRatedPicks(){
   console.log('product',Product.Top_rated_picked);
-  const style1={
+  // const style1={
 
-  }
+  // }
        return <div>
    <div className='top-rated-picked'>
     {Product.Top_rated_picked?.map((item)=>

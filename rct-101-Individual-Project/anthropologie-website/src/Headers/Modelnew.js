@@ -43,7 +43,7 @@ const {setisAuth}=useContext(AuthContext)
       
       <Box className='Modalbox1' >
        <Menu isLazy>
-  <MenuButton>New!</MenuButton>
+  <MenuButton>New! Item list 12</MenuButton>
 
   <Flex>
   <MenuList style={{
@@ -278,7 +278,7 @@ export function Dresses() {
 
 export function Signin() {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  const {setname,setisAuth,setTocken,name, tocken}=useContext(AuthContext)
+  const {setname,setisAuth,setTocken,name,tocken}=useContext(AuthContext)
   const initialRef = React.useRef(null)
   const finalRef = React.useRef(null)
 
@@ -293,7 +293,7 @@ console.log(tocken);
 
 console.log(('up@gmail.com'.includes("(@"&&".com")&&tocken.length>8&&name.length>=4));
 const clickLoginHandl=()=>{
-  if((tocken.includes("(@"&&".com")&&tocken.length>8)){
+  if((tocken.includes("(@"&&".com")&&tocken.length>8&&name.length>=4)){
     setisAuth(false)
   }
   else{
@@ -460,9 +460,9 @@ const changehandle2=(e)=>{
 
 console.log(tocken);
 
-console.log(('up@gmail.com'.includes("(@"&&".com")&&tocken.length>8&&name.length>=4));
+// console.log(('up@gmail.com'.includes("(@"&&".com")&&tocken.length>8&&name.length>=4));
 const clickLoginHandl=()=>{
-  if((tocken.includes("(@"&&".com")&&tocken.length>8)){
+  if((tocken.includes("(@"&&".com")&&tocken.length>8&&name.length>=4)){
     setisAuth(false)
   }
   else{
