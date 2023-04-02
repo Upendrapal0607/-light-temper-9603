@@ -128,6 +128,7 @@ width: 50%;
 }
 .app-store{
     width: 20%;
+    cursor: pointer;
  
 
 }
@@ -148,6 +149,7 @@ width: 50%;
 }
 
 .long-poster{
+    cursor: pointer;
     width: 90%;
     margin: auto;
     padding: 20px 0px;

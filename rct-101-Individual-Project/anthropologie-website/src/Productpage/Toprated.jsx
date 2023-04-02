@@ -1,8 +1,37 @@
 import product from '../db.json'
 import "./Products.css";
+
+import { AuthContext } from '../Context/Authcontext';
+import { useContext } from 'react';
 export function TopratedProduct(){
+  const {data2,setData2}=useContext(AuthContext)
     let data=product.Top_rated_picked
     console.log(data);
+
+
+    const AddtoCartHandle=(Item)=>{
+      console.log(Item);
+      let flag=false
+      if(data2.length!=0){
+    for(let i=0;i<data2.length;i++){
+     if(Item.id==data2[i].id){
+         flag=true
+        }
+       }
+      
+    }
+    if(!flag){
+    console.log(flag);
+      setData2([...data2,Item])
+      alert('Product Added into cart')
+    }
+    else{
+    console.log(flag);
+      alert("Product already added in Cart")
+    }
+    }
+    
+    
     return <div className="all-product">
     <div className="product-list">
       {data?.map((item)=>
@@ -24,7 +53,7 @@ export function TopratedProduct(){
         
         </div>
         <p>{item.details}</p>
-        <button className='add-cart-btn'>Add to cart</button>
+        <button onClick={()=>{AddtoCartHandle(item)}} className='add-cart-btn'>Add to cart</button>
        </div>
        </div>
         </div>

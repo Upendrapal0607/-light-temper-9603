@@ -1,31 +1,17 @@
 import {
-  Stack,
-  HStack,
-  
-  VStack,
+ 
   Box,
-  StackDivider,
-  Flex,
-  Heading,
-  Spacer,
-  ButtonGroup,
-  Button,
-  Grid,
-  Select,
-  Text,
+  
   Input,
   InputGroup,
-  InputLeftAddon,
+ 
   InputRightAddon,
-  SimpleGrid,
-  Image,
-  Link,
+ 
 } from "@chakra-ui/react";
 
 
 import "./Navbar.css";
-// import Product from "./../db.json";
-import Product1 from "../db.json";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -54,7 +40,7 @@ export default function Navbar() {
             <FontAwesomeIcon icon={faGlobe} />
             <select style={{padding:'2px',outline:"none",border:'1px solid gray'}}>
             <option>English($)</option>
-            <option>Hindi(H)</option>
+            {/* <option>Hindi(H)</option> */}
             <option>French(F)</option>
             <option>Arabic(A)</option>
             <option>Russian(R)</option>
@@ -103,7 +89,7 @@ export default function Navbar() {
                 children={<FontAwesomeIcon icon={faMagnifyingGlass} />}
               />
             </InputGroup>
-            <Box onClick={()=>navigate("/Cart")} className="cart-icon" p={6} fontSize={25}>
+            <Box onClick={()=>navigate("/")} className="cart-icon" p={6} fontSize={25}>
               <FontAwesomeIcon icon={faCartShopping} />
             </Box>
           </div>
@@ -115,22 +101,21 @@ export default function Navbar() {
 
       <div  className="third-nav" style={{display:'flex',flexWrap:'wrap'}}>
     
-      <Box className="third-nav-box">
+      <Box className="third-nav-box" onClick={()=>navigate("/")}>
           New!
           </Box>
-      <Box className="third-nav-box" onClick={()=>navigate("/Toprated")}>
+      <Box className="third-nav-box" onClick={()=>navigate("/")}>
             Top-Rared 
           </Box>
-          <Box className="third-nav-box">
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>
            Dresses 
-           
           </Box>
-          <Box className="third-nav-box">Clothing</Box>
-          <Box className="third-nav-box">Wedding</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>Clothing</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>Wedding</Box>
           <Box className="third-nav-box">Home & Furniture</Box>
-          <Box className="third-nav-box">Beuty & Wellness</Box>
-          <Box className="third-nav-box">Gift & Candles</Box>
-          <Box className="third-nav-box">Sale</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>Shoese</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>Gift</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/')}>Sale</Box>
       </div>
 
 
