@@ -14,15 +14,16 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 
 export function TopPoster() {
+  const navigate = useNavigate()
 
     return (
         <div>
-        <div className='Poster1-Image'>
+        <div onClick={()=>navigate("/Product")} className='Poster1-Image'>
             <div className='Image-poster-1'>
 
             <img  src={logo1} alt="" />
             </div>
-            <div className='Image-poster-2'>
+            <div onClick={()=>navigate("/Product")} className='Image-poster-2'>
             <img  src={logo2} alt="" />
 
             </div>
@@ -38,7 +39,7 @@ export function ImagePoster(){
     return <div>
         <div className='image-poster' style={{marginBottom:"30px"}}>
        
-            <div className='image-poster-box' style={{border:"5px solid red"}} onClick={()=>navigate("/Product")}>
+            <div onClick={()=>navigate("/Dresses")} className='image-poster-box' >
            
               <img src={image1} alt="" />
           <div style={{marginTop:"-50px"}}>
@@ -46,18 +47,18 @@ export function ImagePoster(){
        
           </div>
             </div>
-            <div className='image-poster-box'><img src={image2} alt="" />
+            <div onClick={()=>navigate("/Product")} className='image-poster-box'><img src={image2} alt="" />
  <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop New Clothing</button>
           </div>
             </div>
 
-            <div className='image-poster-box'><img src={image3} alt="" />
+            <div onClick={()=>navigate("/Jewelry")} className='image-poster-box'><img src={image3} alt="" />
  <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop Jewelry</button>
           </div>
             </div>
-            <div className='image-poster-box'><img src={image4} alt="" />
+            <div onClick={()=>navigate("/Product")} className='image-poster-box'><img src={image4} alt="" />
              <div style={{marginTop:"-50px"}}>
           <button style={{padding:"2% 15%",backgroundColor:"white"}}>Shop Refrmation</button>
           </div>

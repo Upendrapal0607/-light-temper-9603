@@ -1,190 +1,149 @@
 import {
-    Stack,
-    HStack,
-    
-    VStack,
-    Box,
-    StackDivider,
-    Flex,
-    Heading,
-    Spacer,
-    ButtonGroup,
-    Button,
-    Grid,
-    Select,
-    Text,
-    Input,
-    InputGroup,
-    InputLeftAddon,
-    InputRightAddon,
-    SimpleGrid,
-    Image,
-  } from "@chakra-ui/react";
+  Stack,
+  HStack,
   
-  
-  import "./Navbar.css";
-  // import Product from "./../db.json";
-  import Product1 from "../db.json";
-  
-  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  import {
-    faUser,
-    faGlobe,
-    faCartShopping,
-    faMagnifyingGlass,
-  } from "@fortawesome/free-solid-svg-icons";
-  import { NewItem, Toprated, Dresses, Login, Signin } from "./Modelnew";
-  
-  import { LandingPage } from "../Mainsection/Landing";
-  
-  import { Slider1, Slider2, SliderSpacer, SliderSpacer2 } from "../Mainsection/Carousel";
-  import { MoretoExplore } from "../Mainsection/MultipleLandingCart";
-  import { Footer } from "../Footer/Footer";
-  
-  import { AuthContext } from "../Context/Authcontext";
+  VStack,
+  Box,
+  StackDivider,
+  Flex,
+  Heading,
+  Spacer,
+  ButtonGroup,
+  Button,
+  Grid,
+  Select,
+  Text,
+  Input,
+  InputGroup,
+  InputLeftAddon,
+  InputRightAddon,
+  SimpleGrid,
+  Image,
+  Link,
+} from "@chakra-ui/react";
+
+
+import { AuthContext } from "../Context/Authcontext";
 import { useContext } from "react";
-  
-  export default function UserPage() {
-    
-    const{name,setname,setisAuth}= useContext(AuthContext)
+import "./Navbar.css";
+import Product1 from "../db.json";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faUser,
+  faGlobe,
+  faCartShopping,
+  faMagnifyingGlass,
+} from "@fortawesome/free-solid-svg-icons";
+import { NewItem, Toprated, Dresses, Login, Signin } from "./Modelnew";
+
+import { LandingPage } from "../Mainsection/Landing";
+import { Navigate, useNavigate } from "react-router-dom";
+
+export default function Usernavbar() {
+  const{data2,name,setname,setisAuth}= useContext(AuthContext)
+
+  const navigate=useNavigate()
+  return (
+    <div className="nav-bar">
    
-    return (
-      <VStack>
-        <Image  />
-        <Flex
-          alignItems="center"
-          minWidth="max-content"
-          gap="2"
-          bg="gray.100"
-          pr={5}
-          pl={5}
-          width="100%"
-        >
-          <Box></Box>
-          <Spacer />
-  
-          <Flex alignItems="center">
-            <Box className="Lunguage-Icon">
-              <FontAwesomeIcon icon={faGlobe} />
-            </Box>
-            <Select p={0}>
-              <option>Hindi($)</option>
-              <option>English($)</option>
-              <option>English($)</option>
-              <option>Hindi(H)</option>
-              <option>French(F)</option>
-              <option>Arabic(A)</option>
-              <option>Russian(R)</option>
-              <option>Spanish(S)</option>
-            </Select>
-          </Flex>
-          <Box>
-            <FontAwesomeIcon icon={faUser} />
-          </Box>
-          <Box>
-            <Flex gap={3}>
-            <Text>{name}</Text>
-            
-            <Text onClick={()=>{
+      <div className="nav-top-box">
+      <div >
+
+      </div>
+
+      <div className="nav-top-box-1">
+      <div className="Lunguage-Icon">
+            <FontAwesomeIcon icon={faGlobe} />
+            <select style={{padding:'2px',outline:"none",border:'1px solid gray'}}>
+            <option>English($)</option>
+            <option>Hindi(H)</option>
+            <option>French(F)</option>
+            <option>Arabic(A)</option>
+            <option>Russian(R)</option>
+            <option>Spanish(S)</option>
+          </select>
+          </div>
+          <div className="login-box" style={{display:'flex',alignItems:"center"}}>
+          <div style={{fontSize:"20px"}}>
+          <FontAwesomeIcon icon={faUser} />
+        </div>
+        <div style={{display:"flex",gap:"10px"}}>
+          <div color="gray.500" className="SignUp">
+            {name}
+           </div>
+           <Text onClick={()=>{
                 setname('');
                 setisAuth(true)
+                navigate('/')
         }} className="SignUp">Logout</Text>
-            </Flex>
            
-          </Box>
-          {/* <Flex gap={1}>
-            <Text color="gray.500" className="SignUp">
-               <Signin />
-  
-            </Text>
-          
-          
-            <Text
-              onClick={() => {
-                console.log("Upendra");
-              }}
-              color="gray.500"
-              className="SignUp"
-            >
-              {" "}
-               <Login />
-            </Text>
-          </Flex> */}
+        </div>
+          </div>
+      </div>
 
-        </Flex>
-  
-        {/* Second Navbar Line */}
-        <Flex className="position">
-          <Flex
-            className="search"
-            borderBottom="1px solid gray"
-            alignItems="center"
-            minWidth="max-content"
-            gap="2"
-            pr={5}
-            pl={5}
+      </div>
+
+{/* first nav end */}
+
+
+{/* second nav start */}
+<div className="fixing-nav">
+
+      <div className="second-nav-box position">
+  <div className="second-nav-item search">
+  <p className="logo-name">ANTHROPOLOGIE</p>
+            <br />
+            <p className="logo-style">ANTHROPOLOGIE</p>
+  </div>
+
+  <div style={{display:"flex",gap:"12px"}}>
+            <InputGroup size="sm" alignItems="center">
+              <Input placeholder="Search anthologie" pt={4} pb={4} w={300} />
+              <InputRightAddon
+                padding={4}
+                fontSize={25}
+                children={<FontAwesomeIcon icon={faMagnifyingGlass} />}
+              />
+            </InputGroup>
+            <Box onClick={()=>navigate("/Cart")} className="cart-icon" p={6} fontSize={25}>
+              <h1 style={{fontWeight:"600",fontSize:"25px",zIndex:"2",marginBottom:"-20px",marginTop:"0px",marginRight:"-30px"}}>{data2.length==0?"":data2.length}</h1>
+              <FontAwesomeIcon icon={faCartShopping} />
+            </Box>
+          </div>
+      </div>
+
+{/* Second navbar End  */}
+
+{/* Thired nav bar start */}
+
+      <div  className="third-nav" style={{display:'flex',flexWrap:'wrap'}}>
+    
+      <Box className="third-nav-box" onClick={()=>navigate("/Product")}>
+          New!
+          </Box>
+      <Box className="third-nav-box" onClick={()=>navigate("/Toprated")}>
+            Top-Rared 
+          </Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Dresses')}>
+           Dresses 
+          </Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Product')}>Clothing</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Jewelry')}>Wedding</Box>
+          <Box className="third-nav-box">Home & Furniture</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Shoese')}>Shoese</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Jewelry')}>Gift</Box>
+          <Box className="third-nav-box" onClick={()=>navigate('/Product')}>Sale</Box>
+      </div>
+
+
+      </div>
+
+    </div>
+
+
+
+
        
-          >
-            <Flex gap={5}>
-              <Box className="logo-name">ANTHROPOLOGIE</Box>
-              <Spacer />
-              <Box className="logo-style">ANTHROPOLOGIE</Box>
-            </Flex>
-            <Spacer />
-  
-            <Flex gap={6}>
-              <InputGroup size="sm" alignItems="center">
-                <Input placeholder="Search anthologie" p={6} />
-                <InputRightAddon
-                  padding={6}
-                  fontSize={25}
-                  children={<FontAwesomeIcon icon={faMagnifyingGlass} />}
-                />
-              </InputGroup>
-              <Box className="cart-icon" p={6} fontSize={30}>
-                <FontAwesomeIcon icon={faCartShopping} />
-              </Box>
-            </Flex>
-          </Flex>
-  
-          {/* Third Navbar Line */}
-  
-          <SimpleGrid
-            className="third-nav"
-            minChildWidth="10%"
-            minWidth="max-content"
-            
-          >
-            <Box className="third-nav-box">
-              <NewItem />
-            </Box>
-            <Box className="third-nav-box">
-              <Toprated />
-            </Box>
-            <Box className="third-nav-box">
-              <Dresses />
-            </Box>
-            <Box className="third-nav-box">Clothing</Box>
-            <Box className="third-nav-box">Wedding</Box>
-            <Box className="third-nav-box">Home & Furniture</Box>
-            <Box className="third-nav-box">Beuty & Wellness</Box>
-            <Box className="third-nav-box">Gift & Candles</Box>
-            <Box className="third-nav-box">Sale</Box>
-          </SimpleGrid>
-        </Flex>
-  
-  {/* <LandingPage />
-  <Slider1 />
-  <SliderSpacer />
-  <Slider2 />
-  <SliderSpacer2 />
-  <MoretoExplore />
-  <Footer /> */}
-  <SimpleGrid>
-  {/* {Product1.All_Product?.map((item)=><Box><Image src={item.image}></Image></Box>)} */}
-  </SimpleGrid> 
-  
-      </VStack>
-    );
-  }
-  
+  );
+}

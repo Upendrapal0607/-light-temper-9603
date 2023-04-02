@@ -24,8 +24,8 @@ export function Footer(){
               <p>Receive early access to new arrivals, sales, exclusive content, events</p>
               <p>and much more!</p>
                         </div>
-                        <div className="input-submit" style={{border:"1px solid blue"}}>
-             <div className="manage-btm" style={{border:"1px solid red"}}>
+                        <div className="input-submit" >
+             <div className="manage-btm" >
                                            
 <p>Email Adress</p>
  <input className="input-manage" style={{border:"1px solid gray",padding:"0.5rem",outlineColor:"#4CAF50"}} type="text" name="" id="" />
