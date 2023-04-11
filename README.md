@@ -24,12 +24,13 @@ I did this project within 5 days in our unit-3 construct week. Arthopologei is a
 
 <ul>
 <li>Home Page</li>
+![Home page](https://user-images.githubusercontent.com/112810287/231138351-f18ff902-275f-448c-9980-9224bbea9162.PNG)
+
 <li>Login/Sign-up</li>
 <li>Products</li>
 <li>Responsive UI</li>
 <li>Cart Functionality</li>
 <li>Payment Functionality</li>
-<li>Admin Side</li>
 </ul>
 
 <h1>Thank you.</h1>
