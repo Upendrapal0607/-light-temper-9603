@@ -3,7 +3,7 @@
 
 This was a indvidual project made by one person Executed in 5 days.
 
-I did this project within 5 days in our unit-3 construct week. Arthopologei is a lifelive product based website  in India that allows customers to perchase cosmatic product.It has expanded to several product.
+I did this project within 5 days in our unit-3 construct week. Arthopologei is a life live product based website in India that allows customers to perchase cosmatic product.It has expanded to several product.
 
 <h1>Contributor</h1>
 <ul>
