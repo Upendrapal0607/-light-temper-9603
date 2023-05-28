@@ -1,10 +1,12 @@
 # -light-temper-9603
 # arthopologei.com
 
-This was a indvidual project made by one person span within in 5 days.
+This was a indvidual project made by one person Executed in 5 days.
 
-I did this project within 5 days in our unit-3 construct week. Arthopologei is a lifelive product based website  in India that allows customers to perchase cosmatic product.It has expanded to several product.
-Netlify deploy link : https://64710db0669a522064324ddc--silly-phoenix-e12b6b.netlify.app/
+I did this project within 5 days in our unit-3 construct week. Arthopologei is a life live product based website in India that allows customers to perchase cosmatic product.It has expanded to several product.
+
+Netlify Link : https://64710db0669a522064324ddc--silly-phoenix-e12b6b.netlify.app/
+
 <h1>Contributor</h1>
 <ul>
 <li>Upendra Pal</li>
@@ -24,12 +26,20 @@ Netlify deploy link : https://64710db0669a522064324ddc--silly-phoenix-e12b6b.net
 
 <ul>
 <li>Home Page</li>
+![Home page](https://user-images.githubusercontent.com/112810287/231142199-6254b8f3-d86b-4935-b45f-8decb67a964d.PNG)
+
 <li>Login/Sign-up</li>
+![Capture76](https://user-images.githubusercontent.com/112810287/231142246-e75f73e9-396c-45a0-aa47-1adb4b88dda1.PNG)
+
+
 <li>Products</li>
+  ![Capture78](https://user-images.githubusercontent.com/112810287/231142310-4ec3a7a5-6239-41ed-a178-f3d5adfa0143.PNG)
+
+<li>Payment Functionality</li>
+![Capture77](https://user-images.githubusercontent.com/112810287/231142340-6a2f58a4-8718-47a8-a84f-1a07e19d48b9.PNG)
+
 <li>Responsive UI</li>
 <li>Cart Functionality</li>
-<li>Payment Functionality</li>
-<li>Admin Side</li>
 </ul>
 
 <h1>Thank you.</h1>
